@@ -69,13 +69,13 @@ function test() {
             gameOver();
             return
         }
-
+    }
         if (gamePattern.length === userClickedPattern.length) {
             nextSequence();
             result = undefined;
             userClickedPattern.length = 0;
         }
-    }
+    
 
 };
 
